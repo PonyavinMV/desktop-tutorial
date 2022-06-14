@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class PlayerControl : MonoBehaviour
 {
-    public LayerMask whatCanBeClickedOn;
+    private LayerMask whatCanBeClickedOn;
 
     private NavMeshAgent myAgent;
 
